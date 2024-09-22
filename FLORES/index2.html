@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramo de Girasoles Amarillos</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0e68c;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        img {
+            max-width: 90%;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            animation: scale 2s infinite alternate;
+        }
+        @keyframes scale {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.05); }
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            background-color: #ffcc00;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #ffdb33;
+        }
+    </style>
+</head>
+<body>
+
+<h1>¡Feliz Día de las Flores Amarillas!</h1>
+<img src="flor.png" alt="Ramo de Girasoles"> <!-- Asegúrate de que la imagen esté en la misma carpeta -->
+<p>Para ti, mi amorcito. Que tu día sea tan brillante como estos girasoles.</p>
+<button onclick="window.history.back()">Dedicatoria para mi Amorcito❤️</button>
+
+</body>
+</html>
